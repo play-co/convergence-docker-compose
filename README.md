@@ -1,4 +1,7 @@
 # Convergence Docker Compose
+
+> NOTE: This is a fork of the original project which patched the server version to `1.0.0-rc13`. This contains a fix for a bug which prevented users being deleted.
+
 This project leverages docker-compose to stand up a self-contained version of all Convergence Services to create a full Convergence environment. This project can be used as a local development environment or the basis of a production deployment using Docker Compose.
 
 ## Support

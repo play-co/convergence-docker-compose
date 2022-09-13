@@ -38,7 +38,7 @@ services:
   ## server roles.
   ##
   server:
-    image: ${CONVERGENCE_DOCKER_REPO}/convergence-server:${CONVERGENCE_DOCKER_TAG}
+    image: ${CONVERGENCE_DOCKER_REPO}/convergence-server:1.0.0-rc.13
     # restart: always
     volumes:
        - ./config/convergence/log4j2.xml:/opt/convergence-server/conf/log4j2.xml
